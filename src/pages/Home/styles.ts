@@ -24,53 +24,50 @@ export const Tittle = styled.h1`
     height: 0;
     width: 0;
     position: relative;
-    left: 200px;
-    top: -210px;
+    left: 280px;
+    top: -250px;
 
     transform: rotate(90deg);
     font-size: 120px;
     font-weight: bold;
     background-color: black;
 
-    @media(max-width: 1200px){
-        position: relative;
-        left: 30px;
-        top: -350px;
+    @media(max-width: 800px){
+        left: 10%;
+        top: -370px;
 
         font-size: calc(60px + 2vw);
         transform: rotate(0);
+        
     }
 `;
-export const ChampSection = styled.div`
-    width: 100%;
-    height: 450px;
-
-    
+export const ChampionSection = styled.div`
     display: flex;
-    flex-direction: row;
+    @media(max-width: 1300px){
+    flex-direction: row-reverse;
 
-    margin-left: 260px;
-    overflow-x:auto;
-    overflow-y: hidden;
-    scroll-snap-type:x mandatory ;
-
-    @media(max-width: 1200px){
-        margin-left: 10%;
-        margin-top: -60px;
+    }
+    margin-left: 330px;
+    @media(max-width: 800px){
+        margin: 0 auto;
     }
 `;
 export const Champion = styled.div`
-    width: 220px;
-    height: 100%;
-    
-    margin-right: 10px;
-    background: var(--primary);
     border-top-left-radius: 8px;
-
-    scroll-snap-align: start;
-    -webkit-overflow-scrolling: touch;
-
-    @media(max-width: 1200px){
-        width: 200px;
+    width: 250px;
+    height: 500px;
+    
+    
+    background: var(--primary);
+    > h1{
+        color: transparent;
+        -webkit-text-stroke: 1.3px white;
+        font-weight: bold;
     }
+    :hover{
+        padding-bottom: 40px;
+    }
+`;
+export const Avatar = styled.img`
+
 `;
