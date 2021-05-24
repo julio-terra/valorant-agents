@@ -9,7 +9,17 @@ valorant agents
 </h1>
 
 <p align="center">desenvolvido com typescript e Reactjs</p>
+<hr/>
 
+<div align="center" >
+  <h1>1280x720(desktop)</h1>
+  <img src="./desktop.gif" alt="demo-web">
+  <hr />
+  <h1>812x375(iphone-x)</h1>
+  <img src="./mobile.gif" alt="demo-mobile">
+</div>
+
+<hr />
 
 
 ## 🚀 Tecnologias
