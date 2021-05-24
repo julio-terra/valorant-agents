@@ -24,8 +24,6 @@ esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - ✔️ styled-icons
 
-- ✔️ styled-icons
-
 como usar:
   # digite os seguites comandos:
   ### `git clone git@github.com:julio-terra/valorant-agents.git`
